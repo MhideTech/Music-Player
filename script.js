@@ -12,7 +12,7 @@ function playPause(){
         song.pause();
         ctrl.classList.remove('fa-pause');
         ctrl.classList.add('fa-play');
-    } else{
+    }else{
         song.play();
         ctrl.classList.remove('fa-play');
         ctrl.classList.add('fa-pause');
