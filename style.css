@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    user-select: none;
 }
 .container{
     width: 100%;
@@ -31,7 +32,7 @@ nav{
     line-height: 40px;
     background: #fff;
     color: #f53192;
-    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
+    box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22); 
 }
 .song-img{
     width: 200px;
